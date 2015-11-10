@@ -26,10 +26,10 @@
     <![endif]-->
 
     
-    <nav class="navbar navbar-default navbar-static-top">
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="row">
-          <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+          <div class="col-md-8 col-md-offset-2">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
@@ -41,12 +41,10 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li><a href="#colors">Home</a></li>
-                <li><a href="#/">Home</a></li>
-                <li><a href="#/">Home</a></li>
-                <li><a href="#/">Home</a></li>
-                <li><a href="#/">Home</a></li>
-                <li><a href="#/">Home</a></li>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#colors">Colors</a></li>
+                <li><a href="#code">Code</a></li>
+                <li><a href="https://github.com/yve5/lipstickcss">Github Project</a></li>
               </ul>
             </div>
           </div>
@@ -56,9 +54,8 @@
     
     <div class="container" id="content-container">
       <div class="row">
-        <div class="col-md-8 col-md-offset-1">
-
-          <div class="jumbotron">
+        <div class="col-md-8 col-md-offset-2">
+          <div id="my-jumbotron" class="jumbotron blue lighten-3 blue-text text-darken-4">
             <h1>LipstickCSS</h1>
             <p>Color CSS Tiny Framework</p>
           </div>
@@ -80,8 +77,41 @@
             hendrerit.
           </p>
 
-          <h1 id="colors">Colors</h1>
-
+          <h1 id="colors">Color Background</h1>
+          
+          <div class="row">
+            <div class="col-sm-6 col-md-3">
+              <h2>orange</h2>
+              
+              <div class="alert orange">orange</div>
+              <div class="alert orange">orange</div>
+              <div class="alert orange">orange</div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h2>blue</h2>
+              
+              <div class="alert blue">blue</div>
+              <div class="alert blue">blue</div>
+              <div class="alert blue">blue</div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h2>green</h2>
+              
+              <div class="alert green">green</div>
+              <div class="alert green">green</div>
+              <div class="alert green">green</div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h2>red</h2>
+              
+              <div class="alert red">red</div>
+              <div class="alert red">red</div>
+              <div class="alert red">red</div>
+            </div>
+          </div>
+          
+          
+          
           <p class="text-justify">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. 
             Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, 
@@ -152,19 +182,6 @@
             <kbd>ctrl + ,</kbd>
           </p>
           
-        </div>
-
-        <div class="col-md-2 hidden-xs hidden-sm">
-
-          <div data-spy="affix" data-offset-top="60" data-offset-bottom="200">
-            <div class="btn-group-vertical" role="group" aria-label="group">
-              <a href="#overview" class="btn btn-default">Overview</a>
-              <a href="#colors" class="btn btn-default">Colors</a>
-              <a href="#code" class="btn btn-default">Code</a>
-              <a href="#top" class="btn btn-default">Back to top</a>
-            </div>
-          </div>
-
         </div>
       </div>
     </div>
