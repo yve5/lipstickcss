@@ -3,4 +3,4 @@ build
 dist
 .tmp
 bower_components
-/nbproject/private/
+nbproject
