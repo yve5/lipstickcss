@@ -5,11 +5,15 @@ LipstickCSS is a tiny CSS color Framework which enables to handle easily colors 
 This project is inspired by [Google Color specifications](http://www.google.com/design/spec/style/color.html) 
 and [Materializecss](http://materializecss.com).
 
+## Quick Start
+
+The files are available since the `dist` folder.
+
 ## Documentation
 
-All information are [here](https://yve5.github.io/lipstickcss).
+Read the [documentation website](https://yve5.github.io/lipstickcss) for further information.
 
-## Under the hood
+## Under The Hood
 
 * Yeoman : [yo angular generator](https://github.com/yeoman/generator-angular)
 * Boostrap : [website](https://getbootstrap.com)

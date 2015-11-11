@@ -10,3 +10,28 @@ div#my-jumbotron {
 div#footer {
   margin-bottom: 30px;
 }
+
+div.color-support {
+  margin-bottom: 15px;
+  
+  div {
+    padding: 10px 20px;
+    font-weight: bold;
+    
+    h4 {
+      font-weight: bold;
+    }
+    
+    $corner : 5px;
+    &:first-child {
+      border-radius: $corner $corner 0 0;
+    }
+    &:last-child {
+      border-radius: 0 0 $corner $corner;
+    }
+  }
+}
+
+h1.buffer-part {
+  margin-top: 50px;
+}

@@ -195,6 +195,13 @@ module.exports = function (grunt) {
           src: ['lipstick.{scss,sass}'],
           dest: '<%= config.source %>',
           ext: '.css'
+        },
+        {
+          expand: true,
+          cwd: '<%= config.app %>/styles',
+          src: ['lipstick.{scss,sass}'],
+          dest: '<%= config.app %>/dist',
+          ext: '.css'
         }]
       },
       compressed: {
@@ -207,6 +214,13 @@ module.exports = function (grunt) {
           cwd: '<%= config.app %>/styles',
           src: ['lipstick.{scss,sass}'],
           dest: '<%= config.source %>',
+          ext: '.min.css'
+        },
+        {
+          expand: true,
+          cwd: '<%= config.app %>/styles',
+          src: ['lipstick.{scss,sass}'],
+          dest: '<%= config.app %>/dist',
           ext: '.min.css'
         }]
       }
