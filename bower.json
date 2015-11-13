@@ -2,6 +2,7 @@
   "name": "lipstickcss",
   "description": "Color CSS Library",
   "main": "dist/lipstick.css",
+  "version": "0.0.1",
   "moduleType": [],
   "keywords": [
     "css",
@@ -24,9 +25,6 @@
     "package.json",
     "README.md"
   ],
-  "dependencies": {
-    "bootstrap-sass": "~3.3.5"
-  },
   "overrides": {
     "bootstrap-sass": {
       "main": [
@@ -37,6 +35,7 @@
     }
   },
   "devDependencies": {
+    "bootstrap-sass": "~3.3.5",
     "chai": "~3.4.1",
     "mocha": "~2.3.3"
   }
