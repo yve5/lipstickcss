@@ -1,6 +1,29 @@
 {
   "name": "lipstickcss",
-  "private": true,
+  "description": "Color CSS Library",
+  "main": "dist/lipstick.css",
+  "moduleType": [],
+  "keywords": [
+    "css",
+    "color",
+    "sass"
+  ],
+  "authors": [
+    "yve5"
+  ],
+  "license": "MIT",
+  "homepage": "yve5.github.io/lipstickcss",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "example",
+    "nbproject",
+    "Gruntfile.js",
+    "package.json",
+    "README.md"
+  ]
   "dependencies": {
     "bootstrap-sass": "~3.3.5"
   },
