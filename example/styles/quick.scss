@@ -29,5 +29,9 @@ div.color-support {
     &:last-child {
       border-radius: 0 0 $corner $corner;
     }
+    
+    span.pull-right {
+      /*font-family: 'Consolas', 'Courier New', serif;*/
+    }
   }
 }
