@@ -1,9 +1,8 @@
 # LipstickCSS
 
-LipstickCSS is a CSS color library which enables to handle easily colors in HTML documents thanks to class collections.
+LipstickCSS is a CSS color library which handles easily colors in HTML documents thanks to class collections.
 
-This project is inspired by [Google Color specifications](http://www.google.com/design/spec/style/color.html) 
-and [Materializecss](http://materializecss.com).
+This project is inspired by [Google Color specifications](http://www.google.com/design/spec/style/color.html) and [Materializecss](http://materializecss.com).
 
 ## Quick Start
 
@@ -25,7 +24,7 @@ Then add a `<script>` to your index.html:
 
 You can install this package with bower by using this command line:
 
-	bower install angular
+	bower install lipstickcss
 
 Then add a `<script>` to your index.html:
 
