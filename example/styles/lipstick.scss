@@ -4,7 +4,7 @@ $version: 'v1.0.0';
  * LipstickCSS Library #{$version}
  * http://yve5.github.io/lipstickcss
  *
- * Copyright 2005 LipstickCSS Library
+ * Copyright 2016 LipstickCSS Library
  * Released under the MIT license
  * http://opensource.org/licenses/MIT
  */
@@ -371,6 +371,9 @@ $colors: (
       .#{$name}-text {
         color: $value !important;
       }
+      .#{$name}-border {
+        border-color: $value !important;
+      }
     }
     @else {
       .#{$name}.#{$type} {
@@ -378,6 +381,9 @@ $colors: (
       }
       .#{$name}-text.text-#{$type} {
         color: $value !important;
+      }
+      .#{$name}-border.border-#{$type} {
+        border-color: $value !important;
       }
     }
   }
