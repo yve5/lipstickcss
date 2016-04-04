@@ -90,8 +90,10 @@ var htmlEntities = function (input, output) {
           .pipe($.if('*.css', $.cssmin()))
           .pipe($.if('*.css', $.rev()))
           .pipe($.if('*.html', $.htmlmin({
+            collapseWhitespace: true,
             removeComments: true,
-            collapseWhitespace: true
+            minifyCSS: true,
+            minifyJS: true
           })))
           .pipe($.revReplace())
           .pipe(gulp.dest(output));
@@ -135,19 +137,26 @@ gulp.task('fonts', function () {
           .pipe(gulp.dest(appConfig.dist + '/fonts'));
   
   // Output
-  return project && bootstrap;
+  return (project && bootstrap);
 });
 
 
 // Delete files and folders
 gulp.task('clean', function () {
-  return gulp.src([appConfig.dist]).pipe($.rimraf());
+  return gulp.src([appConfig.dist])
+          .pipe($.rimraf());
+});
+
+// Copy Lipstick inside distribution app version
+gulp.task('lipstick', function () {
+  return gulp.src([appConfig.binaries + '**/*'])
+          .pipe(gulp.dest(appConfig.dist));
 });
 
 
 // Build the application
 gulp.task('build', function () {
-  runs('clean', 'html', 'views', 'images', 'favicon', 'fonts');
+  runs('clean', 'html', 'views', 'images', 'favicon', 'fonts', 'lipstick');
 });
 
 
