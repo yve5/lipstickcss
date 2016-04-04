@@ -11,20 +11,19 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <!-- build:css(.) styles/vendor.css -->
-    <!-- bower:css -->
-    <!-- endbower -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
     <!-- endbuild -->
-    <!-- build:css(.tmp) styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/quick.css">
-    <link rel="stylesheet" href="styles/lipstick.css">
+    
+    <!-- build:css(.) styles/main.css -->
+    <link rel="stylesheet" href="css/lipstick.css">
+    <link rel="stylesheet" href="css/sass.css">
+    <link rel="stylesheet" href="css/pure.css">
     <!-- endbuild -->
   </head>
   <body>
     <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-
 
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
@@ -99,7 +98,7 @@
           <div class="alert purple bright-4 purple-text text-dark-3">May the Force be with you !</div>
 
           <br>
-          
+
           <h2 class="grey-text text-dark-1">Text Color</h2>
           <p>In order to colorize a text, add the color name with the <code>-text</code> suffix and bright/dark class (if necessary) with the <code>text-</code> prefix to the element.</p>
 
@@ -108,9 +107,9 @@
 
           <h4>Result</h4>
           <div class="alert blue bright-5 blue-text text-darken-1">May the Force be with you !</div>
-          
+
           <br>
-          
+
           <h2 class="grey-text text-dark-1">Border Color</h2>
           <p>In order to colorize a border, add the color name with the <code>-border</code> suffix and bright/dark class (if necessary) with the <code>border-</code> prefix to the element.</p>
 
@@ -375,7 +374,7 @@
               <div class="amber accent-3 white-text">amber accent-3 <span class="pull-right">A400 &middot; #FFC400</span></div>
               <div class="amber accent-4 white-text">amber accent-4 <span class="pull-right">A700 &middot; #FFAB00</span></div>
             </div>
-            
+
             <div class="col-sm-6 color-support">
               <div class="orange white-text"><h4>Orange</h4><p class="pull-right">#FF9800</p><p>500</p></div>
               <div class="orange bright-5 grey-text text-dark-2">orange bright-5 <span class="pull-right">50 &middot; #FFF3E0</span></div>
@@ -393,7 +392,7 @@
               <div class="orange accent-3 white-text">orange accent-3 <span class="pull-right">A400 &middot; #FFC400</span></div>
               <div class="orange accent-4 white-text">orange accent-4 <span class="pull-right">A700 &middot; #FFAB00</span></div>
             </div>
-            
+
             <div class="col-sm-6 color-support">
               <div class="deep-orange white-text"><h4>Deep Orange</h4><p class="pull-right">#FF5722</p><p>500</p></div>
               <div class="deep-orange bright-5 grey-text text-dark-2">deep-orange bright-5 <span class="pull-right">50 &middot; #FBE9E7</span></div>
@@ -411,7 +410,7 @@
               <div class="deep-orange accent-3 white-text">deep-orange accent-3 <span class="pull-right">A400 &middot; #FF3D00</span></div>
               <div class="deep-orange accent-4 white-text">deep-orange accent-4 <span class="pull-right">A700 &middot; #DD2C00</span></div>
             </div>
-            
+
             <div class="col-sm-6 color-support">
               <div class="brown white-text"><h4>Brown</h4><p class="pull-right">#795548</p><p>500</p></div>
               <div class="brown bright-5 grey-text text-dark-2">brown bright-5 <span class="pull-right">50 &middot; #EFEBE9</span></div>
@@ -425,7 +424,7 @@
               <div class="brown dark-3 white-text">brown dark-3 <span class="pull-right">800 &middot; #4E342E</span></div>
               <div class="brown dark-4 white-text">brown dark-4 <span class="pull-right">900 &middot; #3E2723</span></div>
             </div>
-            
+
             <div class="col-sm-6 color-support">
               <div class="grey white-text"><h4>Grey</h4><p class="pull-right">#9E9E9E</p><p>500</p></div>
               <div class="grey bright-5 grey-text text-dark-2">grey bright-5 <span class="pull-right">50 &middot; #FAFAFA</span></div>
@@ -439,7 +438,7 @@
               <div class="grey dark-3 white-text">grey dark-3 <span class="pull-right">800 &middot; #424242</span></div>
               <div class="grey dark-4 white-text">grey dark-4 <span class="pull-right">900 &middot; #212121</span></div>
             </div>
-            
+
             <div class="col-sm-6 color-support">
               <div class="blue-grey white-text"><h4>Blue Greys</h4><p class="pull-right">#607D8B</p><p>500</p></div>
               <div class="blue-grey bright-5 grey-text text-dark-2">blue-grey bright-5 <span class="pull-right">50 &middot; #ECEFF1</span></div>
@@ -453,7 +452,7 @@
               <div class="blue-grey dark-3 white-text">blue-grey dark-3 <span class="pull-right">800 &middot; #455A64</span></div>
               <div class="blue-grey dark-4 white-text">blue-grey dark-4 <span class="pull-right">900 &middot; #263238</span></div>
             </div>
-            
+
             <div class="col-sm-6 color-support">
               <div class="black white-text"><h4>Black</h4><p class="pull-right">#000000</p><p>black</p></div>
               <div class="white"><h4>White</h4><p class="pull-right">#FFFFFF</p><p>white</p></div>
@@ -471,34 +470,6 @@
         <p>&copy; 2015 LipstickCSS &middot; All rights reserved</p>
       </div>
     </div>
-
-
-    <!-- build:js(.) scripts/vendor.js -->
-    <!-- bower:js -->
-    <!-- endbower -->
-    <script src="/bower_components/jquery/dist/jquery.js"></script>
-    <!-- endbuild -->
-
-
-    <!-- build:js(.) scripts/plugins.js -->
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
-    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
-    <!-- endbuild -->
-
-
-    <!-- build:js scripts/main.js -->
-    <script src="scripts/main.js"></script>
-    <!-- endbuild -->
 
     <!-- Google Analytics: change UA-56568411-3 to be your site's ID. -->
     <script>

@@ -1,13 +1,16 @@
 {
   "name": "lipstickcss",
+  "moduleName": "lipstickcss",
   "description": "Color CSS Library",
   "main": "dist/lipstick.css",
-  "version": "0.0.1",
+  "version": "1.1.0",
   "moduleType": [],
   "keywords": [
+    "lipstickcss",
+    "lipstick",
     "css",
-    "color",
-    "sass"
+    "class",
+    "color"
   ],
   "authors": [
     "yve5"
@@ -21,22 +24,20 @@
     "test",
     "example",
     "nbproject",
-    "Gruntfile.js",
+    "gulpfile.js",
     "package.json",
     "README.md"
   ],
   "overrides": {
-    "bootstrap-sass": {
+    "bootstrap": {
       "main": [
-        "assets/stylesheets/_bootstrap.scss",
-        "assets/fonts/bootstrap/*",
-        "assets/javascripts/bootstrap.js"
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
       ]
     }
   },
   "devDependencies": {
-    "bootstrap-sass": "~3.3.5",
-    "chai": "~3.4.1",
-    "mocha": "~2.3.3"
+    "bootstrap": "^3.2.0"
   }
 }

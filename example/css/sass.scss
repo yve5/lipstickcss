@@ -1,4 +1,6 @@
 
+/* CSS for SASS work */
+
 * {
   font-family: 'Open Sans', Calibri, sans-serif;
 }
@@ -13,25 +15,21 @@ div#footer {
 
 div.color-support {
   margin-bottom: 15px;
-  
+
   div {
     padding: 10px 20px;
     font-weight: bold;
-    
+
     h4 {
       font-weight: bold;
     }
-    
+
     $corner : 5px;
     &:first-child {
       border-radius: $corner $corner 0 0;
     }
     &:last-child {
       border-radius: 0 0 $corner $corner;
-    }
-    
-    span.pull-right {
-      /*font-family: 'Consolas', 'Courier New', serif;*/
     }
   }
 }
