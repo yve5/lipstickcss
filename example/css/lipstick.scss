@@ -336,28 +336,28 @@ $transparent: (
 
 // Palette Collection
 $colors: (
-  "red": $red,
-  "pink": $pink,
-  "purple": $purple,
-  "deep-purple": $deep-purple,
-  "indigo": $indigo,
-  "blue": $blue,
-  "light-blue": $light-blue,
-  "cyan": $cyan,
-  "teal": $teal,
-  "green": $green,
-  "light-green": $light-green,
-  "lime": $lime,
-  "yellow": $yellow,
-  "amber": $amber,
-  "orange": $orange,
-  "deep-orange": $deep-orange,
-  "brown": $brown,
-  "blue-grey": $blue-grey,
-  "grey": $grey,
-  "white": $white,
-  "black": $black,
-  "transparent": $transparent
+  "red":          $red,
+  "pink":         $pink,
+  "purple":       $purple,
+  "deep-purple":  $deep-purple,
+  "indigo":       $indigo,
+  "blue":         $blue,
+  "light-blue":   $light-blue,
+  "cyan":         $cyan,
+  "teal":         $teal,
+  "green":        $green,
+  "light-green":  $light-green,
+  "lime":         $lime,
+  "yellow":       $yellow,
+  "amber":        $amber,
+  "orange":       $orange,
+  "deep-orange":  $deep-orange,
+  "brown":        $brown,
+  "blue-grey":    $blue-grey,
+  "grey":         $grey,
+  "white":        $white,
+  "black":        $black,
+  "transparent":  $transparent
 );
 
 
@@ -365,40 +365,66 @@ $colors: (
 @each $name, $color in $colors {
   @each $type, $value in $color {
     @if $type == "default" {
-      .#{$name} {
-        background-color: $value !important;
+      
+      @each $state in normal, hover, active {
+        @if $state == "normal" {
+          .#{$name} {
+            background-color: $value !important;
+          }
+          .#{$name}-text {
+            color: $value !important;
+          }
+          .#{$name}-border {
+            border-color: $value !important;
+          }
+        }
+        @else {
+          .#{$name}-#{$state}:#{$state} {
+            background-color: $value !important;
+          }
+          .#{$name}-text-#{$state}:#{$state} {
+            color: $value !important;
+          }
+          .#{$name}-border-#{$state}:#{$state} {
+            border-color: $value !important;
+          }
+        }
       }
-      .#{$name}-text {
-        color: $value !important;
-      }
-      .#{$name}-border {
-        border-color: $value !important;
-      }
+      
     }
     @else {
-      .#{$name}.#{$type} {
-        background-color: $value !important;
-      }
-      .#{$name}-text.text-#{$type} {
-        color: $value !important;
-      }
-      .#{$name}-border.border-#{$type} {
-        border-color: $value !important;
-      }
+      
+/*      @each $state in normal, hover, active {
+        @if $state == "normal" {*/
+          
+          .#{$name}.#{$type} {
+            background-color: $value !important;
+          }
+          .#{$name}-text.#{$type}-text {
+            color: $value !important;
+          }
+          .#{$name}-border.#{$type}-border {
+            border-color: $value !important;
+          }
+          
+/*        }
+        @else {
+          
+        }
+      }*/
+      
+      
     }
   }
 }
 
-// usage: color("name_of_color", "type_of_color")
-// to avoid to repeating map-get($colors, ...)
 
-//@function color($color, $type) {
-//  @if map-has-key($colors, $color) {
-//    $curr_color: map-get($colors, $color);
-//    @if map-has-key($curr_color, $type) {
-//      @return map-get($curr_color, $type);
-//    }
-//  }
-//  @warn "Unknown `#{name}` in $colors.";
-//  @return null;
-//}
+// Border Width Classes
+$classname1: border-width;
+$classname2: bwidth;
+
+@for $i from 1 through 10 {
+  .#{$classname1}-#{$i} {
+    border-width: #{$i}px !important;
+  }
+}
