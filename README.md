@@ -12,7 +12,7 @@ The files are available since the `dist` folder.
 
 ### Manually
 
-You can install this library by downloading the CSS file.
+You can install this library by downloading the CSS.
 
 Go to the [website](https://yve5.github.io/lipstickcss). Download a version of Lipstickcss.
 
