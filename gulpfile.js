@@ -35,24 +35,25 @@ gulp.task('scss', function () {
           .pipe(reload({stream: true}));
 
   // Expanded Lipstick CSS
-  second = gulp.src(appConfig.app + '/css/lipstick.scss')
+  second = gulp.src(appConfig.app + '/dist/lipstick.scss')
           .pipe($.sass.sync({
             outputStyle: 'expanded',
             includePaths: ['.'],
             precision: 10
           }).on('error', $.sass.logError))
+          .pipe(gulp.dest(appConfig.app + '/dist'))
           .pipe(gulp.dest(appConfig.binaries))
           .pipe(reload({stream: true}));
 
   // Compressed Lipstick CSS
-  third = gulp.src(appConfig.app + '/css/lipstick.scss')
+  third = gulp.src(appConfig.app + '/dist/lipstick.scss')
           .pipe($.sass.sync({
             outputStyle: 'compressed',
             includePaths: ['.'],
             precision: 10
           }).on('error', $.sass.logError))
           .pipe($.rename('lipstick.min.css'))
-          .pipe(gulp.dest(appConfig.app + '/css'))
+          .pipe(gulp.dest(appConfig.app + '/dist'))
           .pipe(gulp.dest(appConfig.binaries))
           .pipe(reload({stream: true}));
 
