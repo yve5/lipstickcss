@@ -41,7 +41,6 @@ gulp.task('scss', function () {
             includePaths: ['.'],
             precision: 10
           }).on('error', $.sass.logError))
-          .pipe(gulp.dest(appConfig.app + '/dist'))
           .pipe(gulp.dest(appConfig.binaries))
           .pipe(reload({stream: true}));
 
@@ -53,7 +52,7 @@ gulp.task('scss', function () {
             precision: 10
           }).on('error', $.sass.logError))
           .pipe($.rename('lipstick.min.css'))
-          .pipe(gulp.dest(appConfig.app + '/dist'))
+          .pipe(gulp.dest(appConfig.app + '/css'))
           .pipe(gulp.dest(appConfig.binaries))
           .pipe(reload({stream: true}));
 

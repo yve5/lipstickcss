@@ -11,314 +11,314 @@ $version: 'v1.1.0';
 
 // Palettes
 $red: (
-  "bright-5": #FFEBEE,
-  "bright-4": #FFCDD2,
-  "bright-3": #EF9A9A,
-  "bright-2": #E57373,
-  "bright-1": #EF5350,
+  "l5":       #FFEBEE,
+  "l4":       #FFCDD2,
+  "l3":       #EF9A9A,
+  "l2":       #E57373,
+  "l1":       #EF5350,
   "default":  #F44336,
-  "dark-1":   #E53935,
-  "dark-2":   #D32F2F,
-  "dark-3":   #C62828,
-  "dark-4":   #B71C1C,
-  "accent-1": #FF8A80,
-  "accent-2": #FF5252,
-  "accent-3": #FF1744,
-  "accent-4": #D50000
+  "d1":       #E53935,
+  "d2":       #D32F2F,
+  "d3":       #C62828,
+  "d4":       #B71C1C,
+  "a1":       #FF8A80,
+  "a2":       #FF5252,
+  "a3":       #FF1744,
+  "a4":       #D50000
 );
 
 $pink: (
-  "bright-5": #FCE4EC,
-  "bright-4": #F8BBD0,
-  "bright-3": #F48FB1,
-  "bright-2": #F06292,
-  "bright-1": #EC407A,
+  "l5":       #FCE4EC,
+  "l4":       #F8BBD0,
+  "l3":       #F48FB1,
+  "l2":       #F06292,
+  "l1":       #EC407A,
   "default":  #E91E63,
-  "dark-1":   #D81B60,
-  "dark-2":   #C2185B,
-  "dark-3":   #AD1457,
-  "dark-4":   #880E4F,
-  "accent-1": #FF80AB,
-  "accent-2": #FF4081,
-  "accent-3": #F50057,
-  "accent-4": #C51162
+  "d1":       #D81B60,
+  "d2":       #C2185B,
+  "d3":       #AD1457,
+  "d4":       #880E4F,
+  "a1":       #FF80AB,
+  "a2":       #FF4081,
+  "a3":       #F50057,
+  "a4":       #C51162
 );
 
 $purple: (
-  "bright-5": #F3E5F5,
-  "bright-4": #E1BEE7,
-  "bright-3": #CE93D8,
-  "bright-2": #BA68C8,
-  "bright-1": #AB47BC,
+  "l5":       #F3E5F5,
+  "l4":       #E1BEE7,
+  "l3":       #CE93D8,
+  "l2":       #BA68C8,
+  "l1":       #AB47BC,
   "default":  #9C27B0,
-  "dark-1":   #8E24AA,
-  "dark-2":   #7B1FA2,
-  "dark-3":   #6A1B9A,
-  "dark-4":   #4A148C,
-  "accent-1": #EA80FC,
-  "accent-2": #E040FB,
-  "accent-3": #D500F9,
-  "accent-4": #AA00FF
+  "d1":       #8E24AA,
+  "d2":       #7B1FA2,
+  "d3":       #6A1B9A,
+  "d4":       #4A148C,
+  "a1":       #EA80FC,
+  "a2":       #E040FB,
+  "a3":       #D500F9,
+  "a4":       #AA00FF
 );
 
 $deep-purple: (
-  "bright-5": #EDE7F6,
-  "bright-4": #D1C4E9,
-  "bright-3": #B39DDB,
-  "bright-2": #9575CD,
-  "bright-1": #7E57C2,
+  "l5":       #EDE7F6,
+  "l4":       #D1C4E9,
+  "l3":       #B39DDB,
+  "l2":       #9575CD,
+  "l1":       #7E57C2,
   "default":  #673AB7,
-  "dark-1":   #5E35B1,
-  "dark-2":   #512DA8,
-  "dark-3":   #4527A0,
-  "dark-4":   #311B92,
-  "accent-1": #B388FF,
-  "accent-2": #7C4DFF,
-  "accent-3": #651FFF,
-  "accent-4": #6200EA
+  "d1":       #5E35B1,
+  "d2":       #512DA8,
+  "d3":       #4527A0,
+  "d4":       #311B92,
+  "a1":       #B388FF,
+  "a2":       #7C4DFF,
+  "a3":       #651FFF,
+  "a4":       #6200EA
 );
 
 $indigo: (
-  "bright-5": #E8EAF6,
-  "bright-4": #C5CAE9,
-  "bright-3": #9FA8DA,
-  "bright-2": #7986CB,
-  "bright-1": #5C6BC0,
+  "l5":       #E8EAF6,
+  "l4":       #C5CAE9,
+  "l3":       #9FA8DA,
+  "l2":       #7986CB,
+  "l1":       #5C6BC0,
   "default":  #3F51B5,
-  "dark-1":   #3949AB,
-  "dark-2":   #303F9F,
-  "dark-3":   #283593,
-  "dark-4":   #1A237E,
-  "accent-1": #8C9EFF,
-  "accent-2": #536DFE,
-  "accent-3": #3D5AFE,
-  "accent-4": #304FFE
+  "d1":       #3949AB,
+  "d2":       #303F9F,
+  "d3":       #283593,
+  "d4":       #1A237E,
+  "a1":       #8C9EFF,
+  "a2":       #536DFE,
+  "a3":       #3D5AFE,
+  "a4":       #304FFE
 );
 
 $blue: (
-  "bright-5": #E3F2FD,
-  "bright-4": #BBDEFB,
-  "bright-3": #90CAF9,
-  "bright-2": #64B5F6,
-  "bright-1": #42A5F5,
+  "l5":       #E3F2FD,
+  "l4":       #BBDEFB,
+  "l3":       #90CAF9,
+  "l2":       #64B5F6,
+  "l1":       #42A5F5,
   "default":  #2196F3,
-  "dark-1":   #1E88E5,
-  "dark-2":   #1976D2,
-  "dark-3":   #1565C0,
-  "dark-4":   #0D47A1,
-  "accent-1": #82B1FF,
-  "accent-2": #448AFF,
-  "accent-3": #2979FF,
-  "accent-4": #2962FF
+  "d1":       #1E88E5,
+  "d2":       #1976D2,
+  "d3":       #1565C0,
+  "d4":       #0D47A1,
+  "a1":       #82B1FF,
+  "a2":       #448AFF,
+  "a3":       #2979FF,
+  "a4":       #2962FF
 );
 
 $light-blue: (
-  "bright-5": #E1F5FE,
-  "bright-4": #B3E5FC,
-  "bright-3": #81D4FA,
-  "bright-2": #4FC3F7,
-  "bright-1": #29B6F6,
+  "l5":       #E1F5FE,
+  "l4":       #B3E5FC,
+  "l3":       #81D4FA,
+  "l2":       #4FC3F7,
+  "l1":       #29B6F6,
   "default":  #03A9F4,
-  "dark-1":   #039BE5,
-  "dark-2":   #0288D1,
-  "dark-3":   #0277BD,
-  "dark-4":   #01579B,
-  "accent-1": #80D8FF,
-  "accent-2": #40C4FF,
-  "accent-3": #00B0FF,
-  "accent-4": #0091EA
+  "d1":       #039BE5,
+  "d2":       #0288D1,
+  "d3":       #0277BD,
+  "d4":       #01579B,
+  "a1":       #80D8FF,
+  "a2":       #40C4FF,
+  "a3":       #00B0FF,
+  "a4":       #0091EA
 );
 
 $cyan: (
-  "bright-5": #E0F7FA,
-  "bright-4": #B2EBF2,
-  "bright-3": #80DEEA,
-  "bright-2": #4DD0E1,
-  "bright-1": #26C6DA,
+  "l5":       #E0F7FA,
+  "l4":       #B2EBF2,
+  "l3":       #80DEEA,
+  "l2":       #4DD0E1,
+  "l1":       #26C6DA,
   "default":  #00BCD4,
-  "dark-1":   #00ACC1,
-  "dark-2":   #0097A7,
-  "dark-3":   #00838F,
-  "dark-4":   #006064,
-  "accent-1": #84FFFF,
-  "accent-2": #18FFFF,
-  "accent-3": #00E5FF,
-  "accent-4": #00B8D4
+  "d1":       #00ACC1,
+  "d2":       #0097A7,
+  "d3":       #00838F,
+  "d4":       #006064,
+  "a1":       #84FFFF,
+  "a2":       #18FFFF,
+  "a3":       #00E5FF,
+  "a4":       #00B8D4
 );
 
 $teal: (
-  "bright-5": #E0F2F1,
-  "bright-4": #B2DFDB,
-  "bright-3": #80CBC4,
-  "bright-2": #4DB6AC,
-  "bright-1": #26A69A,
+  "l5":       #E0F2F1,
+  "l4":       #B2DFDB,
+  "l3":       #80CBC4,
+  "l2":       #4DB6AC,
+  "l1":       #26A69A,
   "default":  #009688,
-  "dark-1":   #00897B,
-  "dark-2":   #00796B,
-  "dark-3":   #00695C,
-  "dark-4":   #004D40,
-  "accent-1": #A7FFEB,
-  "accent-2": #64FFDA,
-  "accent-3": #1DE9B6,
-  "accent-4": #00BFA5
+  "d1":       #00897B,
+  "d2":       #00796B,
+  "d3":       #00695C,
+  "d4":       #004D40,
+  "a1":       #A7FFEB,
+  "a2":       #64FFDA,
+  "a3":       #1DE9B6,
+  "a4":       #00BFA5
 );
 
 $green: (
-  "bright-5": #E8F5E9,
-  "bright-4": #C8E6C9,
-  "bright-3": #A5D6A7,
-  "bright-2": #81C784,
-  "bright-1": #66BB6A,
+  "l5":       #E8F5E9,
+  "l4":       #C8E6C9,
+  "l3":       #A5D6A7,
+  "l2":       #81C784,
+  "l1":       #66BB6A,
   "default":  #4CAF50,
-  "dark-1":   #43A047,
-  "dark-2":   #388E3C,
-  "dark-3":   #2E7D32,
-  "dark-4":   #1B5E20,
-  "accent-1": #B9F6CA,
-  "accent-2": #69F0AE,
-  "accent-3": #00E676,
-  "accent-4": #00C853
+  "d1":       #43A047,
+  "d2":       #388E3C,
+  "d3":       #2E7D32,
+  "d4":       #1B5E20,
+  "a1":       #B9F6CA,
+  "a2":       #69F0AE,
+  "a3":       #00E676,
+  "a4":       #00C853
 );
 
 $light-green: (
-  "bright-5": #F1F8E9,
-  "bright-4": #DCEDC8,
-  "bright-3": #C5E1A5,
-  "bright-2": #AED581,
-  "bright-1": #9CCC65,
+  "l5":       #F1F8E9,
+  "l4":       #DCEDC8,
+  "l3":       #C5E1A5,
+  "l2":       #AED581,
+  "l1":       #9CCC65,
   "default":  #8BC34A,
-  "dark-1":   #7CB342,
-  "dark-2":   #689F38,
-  "dark-3":   #558B2F,
-  "dark-4":   #33691E,
-  "accent-1": #CCFF90,
-  "accent-2": #B2FF59,
-  "accent-3": #76FF03,
-  "accent-4": #64DD17
+  "d1":       #7CB342,
+  "d2":       #689F38,
+  "d3":       #558B2F,
+  "d4":       #33691E,
+  "a1":       #CCFF90,
+  "a2":       #B2FF59,
+  "a3":       #76FF03,
+  "a4":       #64DD17
 );
 
 $lime: (
-  "bright-5": #F9FBE7,
-  "bright-4": #F0F4C3,
-  "bright-3": #E6EE9C,
-  "bright-2": #DCE775,
-  "bright-1": #D4E157,
+  "l5":       #F9FBE7,
+  "l4":       #F0F4C3,
+  "l3":       #E6EE9C,
+  "l2":       #DCE775,
+  "l1":       #D4E157,
   "default":  #CDDC39,
-  "dark-1":   #C0CA33,
-  "dark-2":   #AFB42B,
-  "dark-3":   #9E9D24,
-  "dark-4":   #827717,
-  "accent-1": #F4FF81,
-  "accent-2": #EEFF41,
-  "accent-3": #C6FF00,
-  "accent-4": #AEEA00
+  "d1":       #C0CA33,
+  "d2":       #AFB42B,
+  "d3":       #9E9D24,
+  "d4":       #827717,
+  "a1":       #F4FF81,
+  "a2":       #EEFF41,
+  "a3":       #C6FF00,
+  "a4":       #AEEA00
 );
 
 $yellow: (
-  "bright-5": #FFFDE7,
-  "bright-4": #FFF9C4,
-  "bright-3": #FFF59D,
-  "bright-2": #FFF176,
-  "bright-1": #FFEE58,
+  "l5":       #FFFDE7,
+  "l4":       #FFF9C4,
+  "l3":       #FFF59D,
+  "l2":       #FFF176,
+  "l1":       #FFEE58,
   "default":  #FFEB3B,
-  "dark-1":   #FDD835,
-  "dark-2":   #FBC02D,
-  "dark-3":   #F9A825,
-  "dark-4":   #F57F17,
-  "accent-1": #FFFF8D,
-  "accent-2": #FFFF00,
-  "accent-3": #FFEA00,
-  "accent-4": #FFD600
+  "d1":       #FDD835,
+  "d2":       #FBC02D,
+  "d3":       #F9A825,
+  "d4":       #F57F17,
+  "a1":       #FFFF8D,
+  "a2":       #FFFF00,
+  "a3":       #FFEA00,
+  "a4":       #FFD600
 );
 
 $amber: (
-  "bright-5": #FFF8E1,
-  "bright-4": #FFECB3,
-  "bright-3": #FFE082,
-  "bright-2": #FFD54F,
-  "bright-1": #FFCA28,
+  "l5":       #FFF8E1,
+  "l4":       #FFECB3,
+  "l3":       #FFE082,
+  "l2":       #FFD54F,
+  "l1":       #FFCA28,
   "default":  #FFC107,
-  "dark-1":   #FFB300,
-  "dark-2":   #FFA000,
-  "dark-3":   #FF8F00,
-  "dark-4":   #FF6F00,
-  "accent-1": #FFE57F,
-  "accent-2": #FFD740,
-  "accent-3": #FFC400,
-  "accent-4": #FFAB00
+  "d1":       #FFB300,
+  "d2":       #FFA000,
+  "d3":       #FF8F00,
+  "d4":       #FF6F00,
+  "a1":       #FFE57F,
+  "a2":       #FFD740,
+  "a3":       #FFC400,
+  "a4":       #FFAB00
 );
 
 $orange: (
-  "bright-5": #FFF3E0,
-  "bright-4": #FFE0B2,
-  "bright-3": #FFCC80,
-  "bright-2": #FFB74D,
-  "bright-1": #FFA726,
+  "l5":       #FFF3E0,
+  "l4":       #FFE0B2,
+  "l3":       #FFCC80,
+  "l2":       #FFB74D,
+  "l1":       #FFA726,
   "default":  #FF9800,
-  "dark-1":   #FB8C00,
-  "dark-2":   #F57C00,
-  "dark-3":   #EF6C00,
-  "dark-4":   #E65100,
-  "accent-1": #FFD180,
-  "accent-2": #FFAB40,
-  "accent-3": #FF9100,
-  "accent-4": #FF6D00
+  "d1":       #FB8C00,
+  "d2":       #F57C00,
+  "d3":       #EF6C00,
+  "d4":       #E65100,
+  "a1":       #FFD180,
+  "a2":       #FFAB40,
+  "a3":       #FF9100,
+  "a4":       #FF6D00
 );
 
 $deep-orange: (
-  "bright-5": #FBE9E7,
-  "bright-4": #FFCCBC,
-  "bright-3": #FFAB91,
-  "bright-2": #FF8A65,
-  "bright-1": #FF7043,
+  "l5":       #FBE9E7,
+  "l4":       #FFCCBC,
+  "l3":       #FFAB91,
+  "l2":       #FF8A65,
+  "l1":       #FF7043,
   "default":  #FF5722,
-  "dark-1":   #F4511E,
-  "dark-2":   #E64A19,
-  "dark-3":   #D84315,
-  "dark-4":   #BF360C,
-  "accent-1": #FF9E80,
-  "accent-2": #FF6E40,
-  "accent-3": #FF3D00,
-  "accent-4": #DD2C00
+  "d1":       #F4511E,
+  "d2":       #E64A19,
+  "d3":       #D84315,
+  "d4":       #BF360C,
+  "a1":       #FF9E80,
+  "a2":       #FF6E40,
+  "a3":       #FF3D00,
+  "a4":       #DD2C00
 );
 
 $brown: (
-  "bright-5": #EFEBE9,
-  "bright-4": #D7CCC8,
-  "bright-3": #BCAAA4,
-  "bright-2": #A1887F,
-  "bright-1": #8D6E63,
+  "l5":       #EFEBE9,
+  "l4":       #D7CCC8,
+  "l3":       #BCAAA4,
+  "l2":       #A1887F,
+  "l1":       #8D6E63,
   "default":  #795548,
-  "dark-1":   #6D4C41,
-  "dark-2":   #5D4037,
-  "dark-3":   #4E342E,
-  "dark-4":   #3E2723
+  "d1":       #6D4C41,
+  "d2":       #5D4037,
+  "d3":       #4E342E,
+  "d4":       #3E2723
 );
 
 $blue-grey: (
-  "bright-5": #ECEFF1,
-  "bright-4": #CFD8DC,
-  "bright-3": #B0BEC5,
-  "bright-2": #90A4AE,
-  "bright-1": #78909C,
+  "l5":       #ECEFF1,
+  "l4":       #CFD8DC,
+  "l3":       #B0BEC5,
+  "l2":       #90A4AE,
+  "l1":       #78909C,
   "default":  #607D8B,
-  "dark-1":   #546E7A,
-  "dark-2":   #455A64,
-  "dark-3":   #37474F,
-  "dark-4":   #263238
+  "d1":       #546E7A,
+  "d2":       #455A64,
+  "d3":       #37474F,
+  "d4":       #263238
 );
 
 $grey: (
-  "bright-5": #FAFAFA,
-  "bright-4": #F5F5F5,
-  "bright-3": #EEEEEE,
-  "bright-2": #E0E0E0,
-  "bright-1": #BDBDBD,
+  "l5":       #FAFAFA,
+  "l4":       #F5F5F5,
+  "l3":       #EEEEEE,
+  "l2":       #E0E0E0,
+  "l1":       #BDBDBD,
   "default":  #9E9E9E,
-  "dark-1":   #757575,
-  "dark-2":   #616161,
-  "dark-3":   #424242,
-  "dark-4":   #212121
+  "d1":       #757575,
+  "d2":       #616161,
+  "d3":       #424242,
+  "d4":       #212121
 );
 
 $white: (
@@ -365,66 +365,64 @@ $colors: (
 @each $name, $color in $colors {
   @each $type, $value in $color {
     @if $type == "default" {
-      
-      @each $state in normal, hover, active {
-        @if $state == "normal" {
-          .#{$name} {
-            background-color: $value !important;
-          }
-          .#{$name}-text {
-            color: $value !important;
-          }
-          .#{$name}-border {
-            border-color: $value !important;
-          }
+      .#{$name} {
+        &, 
+        &-active:active, 
+        &-visited:visited, 
+        &-focus:focus, 
+        &-hover:hover {
+          background-color: $value !important;
         }
-        @else {
-          .#{$name}-#{$state}:#{$state} {
-            background-color: $value !important;
-          }
-          .#{$name}-text-#{$state}:#{$state} {
-            color: $value !important;
-          }
-          .#{$name}-border-#{$state}:#{$state} {
-            border-color: $value !important;
-          }
+        &-text, 
+        &-text-active:active, 
+        &-text-visited:visited, 
+        &-text-focus:focus, 
+        &-text-hover:hover {
+          color: $value !important;
+        }
+        &-border, 
+        &-border-active:active, 
+        &-border-visited:visited, 
+        &-border-focus:focus, 
+        &-border-hover:hover {
+          border-color: $value !important;
         }
       }
-      
     }
     @else {
-      
-/*      @each $state in normal, hover, active {
-        @if $state == "normal" {*/
-          
-          .#{$name}.#{$type} {
-            background-color: $value !important;
-          }
-          .#{$name}-text.#{$type}-text {
-            color: $value !important;
-          }
-          .#{$name}-border.#{$type}-border {
-            border-color: $value !important;
-          }
-          
-/*        }
-        @else {
-          
+      .#{$name} {
+        &-#{$type}, 
+        &-#{$type}-active:active, 
+        &-#{$type}-visited:visited, 
+        &-#{$type}-focus:focus, 
+        &-#{$type}-hover:hover {
+          background-color: $value !important;
         }
-      }*/
-      
-      
+        &-#{$type}-text, 
+        &-#{$type}-text-active:active, 
+        &-#{$type}-text-visited:visited, 
+        &-#{$type}-text-focus:focus, 
+        &-#{$type}-text-hover:hover {
+          color: $value !important;
+        }
+        &-#{$type}-border, 
+        &-#{$type}-border-active:active, 
+        &-#{$type}-border-visited:visited, 
+        &-#{$type}-border-focus:focus, 
+        &-#{$type}-border-hover:hover {
+          border-color: $value !important;
+        }
+      }
     }
   }
 }
 
 
 // Border Width Classes
-$classname1: border-width;
-$classname2: bwidth;
+$classname: border-width;
 
 @for $i from 1 through 10 {
-  .#{$classname1}-#{$i} {
+  .#{$classname}-#{$i} {
     border-width: #{$i}px !important;
   }
 }

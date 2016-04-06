@@ -3,6 +3,11 @@
 
 * {
   font-family: 'Open Sans', Calibri, sans-serif;
+  
+  //*@each $prop in background-color, border-color, color {*/
+  @each $prop in all {
+    transition: #{$prop} 500ms ease;
+  }
 }
 
 div#my-jumbotron {
@@ -32,8 +37,4 @@ div.color-support {
       border-radius: 0 0 $corner $corner;
     }
   }
-}
-
-div.big-border {
-  border-width: 4px;
 }

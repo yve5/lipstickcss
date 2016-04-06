@@ -1,6 +1,7 @@
 /* CSS for SASS work */
 * {
   font-family: 'Open Sans', Calibri, sans-serif;
+  transition: all 500ms ease;
 }
 
 div#my-jumbotron {
@@ -30,8 +31,4 @@ div.color-support div:first-child {
 
 div.color-support div:last-child {
   border-radius: 0 0 5px 5px;
-}
-
-div.big-border {
-  border-width: 4px;
 }
